@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sensualite</string>
+    <string name="select">EDAD</string>
+
+    <string-array name="EDAD">
+
+
+    </string-array>
 </resources>
