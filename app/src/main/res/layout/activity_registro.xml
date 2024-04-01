@@ -16,25 +16,25 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/sensualite"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sensualite" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginRight="40dp">
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:backgroundTint="#F5FF00F2"
                 android:gravity="center"
                 android:hint="NOMBRE"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white" />
 
@@ -43,16 +43,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginRight="40dp">
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:backgroundTint="#F5FF00F2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:backgroundTint="#F5FF00F2"
                 android:gravity="center"
                 android:hint="APELLIDO PATERNO"
                 android:textColor="@color/white"
@@ -63,16 +63,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginRight="40dp">
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:backgroundTint="#F5FF00F2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:backgroundTint="#F5FF00F2"
                 android:gravity="center"
                 android:hint="APELLIDO MATERNO"
                 android:textColor="@color/white"
@@ -83,9 +83,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
@@ -95,34 +95,41 @@
                 android:background="@color/black"
                 android:hint="@string/select"
                 android:textColorHint="@color/white"
+                app:boxStrokeColor="#E91E63"
+                app:endIconTint="#E91E63"
+                app:hintTextColor="#E91E63"
                 app:passwordToggleTint="#F8F0F0">
 
                 <AutoCompleteTextView
                     android:id="@+id/edad"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:dropDownSelector="@color/black"
-                    android:inputType="none" />
+                    android:background="@color/black"
+                    android:dropDownSelector="#F5FF00F2"
+                    android:inputType="none"
+                    android:textColor="#FBFBFB"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="@color/white"
+                    android:textColorLink="#FFF8F8" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginRight="40dp">
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:backgroundTint="#F5FF00F2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:backgroundTint="#F5FF00F2"
                 android:gravity="center"
                 android:hint="CÓDIGO POSTAL"
                 android:textColor="@color/white"
@@ -133,16 +140,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginRight="40dp">
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:backgroundTint="#F5FF00F2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:backgroundTint="#F5FF00F2"
                 android:gravity="center"
                 android:hint="E-MAIL"
                 android:textColor="@color/white"
@@ -153,16 +160,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginRight="40dp">
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:backgroundTint="#F5FF00F2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:backgroundTint="#F5FF00F2"
                 android:gravity="center"
                 android:hint="CONTRASEÑA"
                 android:inputType="textPassword"
@@ -174,46 +181,48 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp">
+            android:layout_marginRight="40dp">
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:backgroundTint="#F5FF00F2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:inputType="textPassword"
+                android:backgroundTint="#F5FF00F2"
                 android:gravity="center"
                 android:hint="CONFIRMAR CONTRASEÑA"
+                android:inputType="textPassword"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white" />
 
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/socialicons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/socialicons"
             android:layout_alignParentBottom="true"
             android:gravity="center">
 
             <Button
+                android:id="@+id/salir_login"
                 android:layout_width="130dp"
                 android:layout_height="50dp"
-                android:backgroundTint="#FF0099"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="30dp"
+                android:backgroundTint="#FF0099"
                 android:text="Salir"
                 android:textSize="15sp" />
+
             <Button
                 android:layout_width="130dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="#FF0099"
                 android:text="Registrarse"
-                android:layout_marginLeft="30dp"
                 android:textSize="15sp" />
 
         </LinearLayout>

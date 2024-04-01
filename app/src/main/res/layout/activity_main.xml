@@ -71,7 +71,7 @@
                 />
         </LinearLayout>
         <Button
-            android:id="@+id/iniciarsesión"
+            android:id="@+id/iniciar_sesión"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FF0099"
