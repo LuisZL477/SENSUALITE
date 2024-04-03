@@ -102,6 +102,7 @@
 
                 <AutoCompleteTextView
                     android:id="@+id/edad"
+                    android:text="EDAD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/black"
@@ -214,7 +215,7 @@
                 android:layout_marginRight="30dp"
                 android:backgroundTint="#FF0099"
                 android:text="Salir"
-                android:textSize="15sp" />
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="130dp"
@@ -223,7 +224,7 @@
                 android:layout_marginTop="10dp"
                 android:backgroundTint="#FF0099"
                 android:text="Registrarse"
-                android:textSize="15sp" />
+                android:textSize="12sp" />
 
         </LinearLayout>
 
