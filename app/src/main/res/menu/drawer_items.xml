@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:shoeIn = "navigation:view">
+
+    <item
+        android:id="@+id/nav_Home"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/nav_Vibradores"
+        android:title="Vibradores"/>
+
+    <item
+        android:id="@+id/nav_Dildos"
+        android:title="Dildos"/>
+
+    <item
+        android:id="@+id/nav_Succionadores"
+        android:title="Succionadores"/>
+
+    <item
+        android:id="@+id/nav_Bolitas"
+        android:title="Bolitas de Kegel"/>
+
+    <item
+        android:id="@+id/nav_Masturbadores"
+        android:title="Masturbadores"/>
+
+    <item
+        android:id="@+id/nav_Extensiones"
+        android:title="Extensiones"/>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_layout"
+                android:title="Logout"/>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
